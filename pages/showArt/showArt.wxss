@@ -1,0 +1,78 @@
+/* pages/showArt/showArt.wxss */
+.st1{
+  padding: 20rpx 10rpx;
+}
+.st2{
+  text-align: center;
+  font-family: simsun;
+  font-size: 40rpx;
+}
+.st3{
+  font-size: 24rpx;
+  padding: 20rpx;
+  text-align: center;
+  color: #999;
+}
+.p{
+  font-family: simsun;
+  text-indent: 2em;
+  line-height: 1.7;
+  text-align: justify;
+}
+.img{
+  vertical-align: middle;
+  width: 100%;
+}
+._st5{
+  padding: 10rpx;
+}
+._st5 textarea{
+  width: 100%;
+}
+._st7{
+  height: 60rpx;
+  width: 60rpx;
+}
+._st8{
+  display: flex;
+  justify-content: space-around;
+}
+._st9{
+  display: flex;
+  justify-content: space-around;
+}
+._st10{
+  height: 100rpx;
+  width: 100rpx;
+  margin: 30rpx;
+}
+.st8_ button{
+  margin: 0;
+}
+.st5{
+  position: fixed;
+  bottom: 10rpx;
+  right: 10rpx;
+  justify-content: space-around;
+  background-color: transparent;
+  padding: 8rpx 0;
+  border: 1px solid #666;
+}
+.st6{
+  width: 88rpx;
+  height: 88rpx;
+  margin-left: 10rpx;
+}
+.st7{
+  display: inline-block;
+  width: 30rpx;
+  height: 30rpx;
+  font-size: 18rpx;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 30rpx;
+  border-radius: 50%;
+  position: fixed;
+  right: 13rpx;
+}

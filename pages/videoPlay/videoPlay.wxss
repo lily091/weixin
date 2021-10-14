@@ -1,0 +1,33 @@
+.st1{
+  text-align: center;
+  padding: 10rpx;
+}
+.st2{
+  font-family: simsun;
+  font-size: 40rpx;
+  margin: 20rpx 0;
+}
+.st3{
+  color: #999;
+  font-size: 24rpx;
+}
+.st4{
+  width: 100%;
+  margin-top: 20rpx;
+}
+.st5{
+  margin-top: 4rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.st5 image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.st6{
+  margin-top: 20rpx;
+}
+.st6 image{
+  width: 100%;
+}
+

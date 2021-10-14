@@ -1,0 +1,27 @@
+.st1{
+  text-align: center;
+  padding: 10rpx;
+}
+.st2{
+  font-family: simsun;
+  font-size: 40rpx;
+  margin: 20rpx 0;
+}
+.st3{
+  color: #999;
+  font-size: 24rpx;
+}
+.st4{
+  border-top: 2rpx sol #eee;
+  margin: 20rpx 0;
+  padding: 60rpx 120rpx 40rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.st4 image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.st8{
+  margin-top: 60rpx;
+}

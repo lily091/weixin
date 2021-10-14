@@ -1,0 +1,38 @@
+<!--pages/comment/comment.wxml-->
+  <view class="st1">
+    <block wx:for="{{arr}}" wx:key="id">
+      <view class="st2">
+        <view class="st3">
+          <image class="st4" src="{{item.avatarUrl}}" mode="widthFix" />
+          <text class="st5">{{item.nickName}}</text>
+        </view>
+        <view class="st6">{{item.content}}</view>
+        <view class="st9">
+          <block wx:for="{{item.imgPaths}}" wx:key="*this" wx:for-item="key">
+            <image class="st7" src="{{key}}" mode="widthFix" wx:if="{{key}}" />
+          </block>
+        </view>
+      </view>
+    </block>
+    <page-container show="{{isShow}}" bind:clickoverlay="closePage">
+      <form catchsubmit="formSubmit">
+        <view class="_st5">
+          <textarea name="content" placeholder="请输入评论"></textarea>
+        </view>
+        <view class="_st9">
+          <block wx:for="{{tempPhotos}}" wx:key="*this">
+            <image class="_st10" mode="widthFix" src="{{item}}" />
+          </block>
+        </view>
+        <view class="_st8">
+          <button type="primary" formType="submit" size="mini">发表评论</button>
+          <image class="_st7" mode="widthFix" bindtap="selectPhone"  src="/icon/add.png"/>
+          <button formType="reset" size="mini" type="warn" bindtap="reset">Reset</button>
+        </view>
+      </form>
+    </page-container>
+    <view class="_st51" style="display:{{isShow?'none':'flex'}}">
+      <image class="_st6" src="/icon/xpl.png" mode="widthFix" bindtap="showPage"/>
+      </view>
+  </view>
+

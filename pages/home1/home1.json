@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "MediaList": "/components/mediaList/mediaList"
+  },
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "列表页"
+}

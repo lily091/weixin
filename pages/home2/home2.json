@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "MediaList": "/components/mediaList/mediaList"
+  },
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "音频列表"
+}

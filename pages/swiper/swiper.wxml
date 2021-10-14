@@ -1,0 +1,14 @@
+<!--pages/swiper/swiper.wxml-->
+<view class="container" style="{{styleStr}}">
+  <view class="st1">
+    <swiper indicator-dots="true" class="st2" indicator-color="#999" indicator-active-color="#e00" bindchange="enterHome" autoplay interval="2000">
+      <block wx:for="{{arr}}" wx:key="id">
+        <swiper-item>
+          <view class="" class="st3">{{item.title}}</view>
+          <view class="" class="st4">{{item.content}}</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <button class="st5" bindtap="enterHome1">进入主页</button>
+</view>

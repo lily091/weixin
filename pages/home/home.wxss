@@ -1,0 +1,46 @@
+/* pages/home/home.wxss */
+.st1{
+  padding: 108rpx 10rpx 30rpx 10rpx;
+  box-sizing: border-box;
+}
+.st2{
+  display: flex;
+  border-bottom: 1rpx solid #aaa;
+  margin-bottom: 30rpx;
+  padding-bottom: 20rpx;
+}
+.st2:last-child{
+  border-bottom: none;
+}
+.st4{
+  flex: 7;
+  margin-right: 20rpx;
+}
+.st5{
+  font-size: 15px;
+  height: 45px;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 10rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.st6{
+  font-size: small;
+  text-align: right;
+  color: #666;
+}
+.st7{
+  flex: 3;
+  width: 100%;
+  height: 162rpx;
+  border-radius: 10rpx;
+}
+.st8{
+  position: fixed;
+  top: 0;
+  left: 0rpx;
+  right: 0rpx;
+}

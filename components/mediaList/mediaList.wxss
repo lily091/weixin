@@ -1,0 +1,36 @@
+.st1{
+  height: 100%;
+  padding: 0 10rpx;
+}
+.st2{
+  display: flex;
+  margin: 16rpx;
+  padding-bottom: 16rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #ccc;
+}
+.st2:last-child{
+  border-bottom: none;
+}
+.st3{
+  background-color: cornflowerblue;
+}
+.st4{
+  flex: 7;
+  margin-right: 10rpx;
+}
+.st5{
+  font-family: sumsun;
+  line-height: 1.5;
+  font-size: 32rpx;
+}
+.st6{
+  font-size: 26rpx;
+  text-align: right;
+  color: #999;
+  margin-top: 66rpx;
+}
+.st7{
+  width: 100%;
+  flex: 3;
+}

@@ -1,0 +1,19 @@
+.st2{
+  background-color: rgba(115, 219, 245,0.5);
+  display: flex;
+  justify-content: space-around;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #555;
+  font-size: 26rpx;
+}
+.st3{
+  padding: 0 10rpx;
+}
+.st3.on{
+  color: rgb(252, 55, 55);
+  border-bottom: 2px solid rgb(252, 55, 55);
+}
+.st5{
+  height: 100%;
+}

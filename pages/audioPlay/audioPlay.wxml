@@ -1,0 +1,24 @@
+<!--pages/audioPlay/audioPlay.wxml-->
+<view class="st1">
+  <view class="st2">{{obj.title}}</view>
+  <view class="st3">{{obj.dateTime}}</view>
+  <view class="st4">
+    <image class="prev" bindtap="prev" src="/icon/prev.png" />
+    <block wx:if="{{flag}}">
+      <image class="pause" bindtap="pause" src="/icon/pause.png" />
+    </block>
+    <block wx:else>
+      <image class="play" bindtap="play" src="/icon/play.png" />
+    </block>
+    <image class="stop" bindtap="stop" src="/icon/stop.png" />
+    <image class="next" bindtap="next" src="/icon/next.png" />
+  </view>
+  <progress percent="{{percent}}" show-info stroke-width="2"></progress>
+  <view class="st5">
+    <text class="st6">{{current}}s</text>/<text class="st7">{{total}}s</text>
+  </view>
+  <slider bindchange="sliderChange" value="{{percent}}" show-value />
+  <view class="st8">
+    <image src="{{obj.smallSrc}}" />
+  </view>
+</view>

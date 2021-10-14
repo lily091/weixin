@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/comment/comment",
+    "pages/swiper/swiper",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/home1/home1",
+    "pages/home2/home2",
+    "pages/home3/home3",
+    "pages/home4/home4",
+    "pages/showArt/showArt",
+    "pages/audioPlay/audioPlay",
+    "pages/audioPlay1/audioPlay1",
+    "pages/videoPlay/videoPlay"
+   
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#485DEA",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#808080",
+    "onReachBottomDistance": 200,
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#f00",
+    "backgroundColor": "#fcfcfc",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "今选",
+        "iconPath": "/icon/首页1.png",
+        "selectedIconPath": "/icon/首页.png"
+      },
+      {
+        "pagePath": "pages/home1/home1",
+        "text": "大学圈",
+        "iconPath": "/icon/圈子1.png",
+        "selectedIconPath": "/icon/圈子.png"
+      },
+      {
+        "pagePath": "pages/home2/home2",
+        "text": "服务",
+        "iconPath": "/icon/服务1.png",
+        "selectedIconPath": "/icon/服务.png"
+      },
+      {
+        "pagePath": "pages/home3/home3",
+        "text": "消息",
+        "iconPath": "/icon/消息1.png",
+        "selectedIconPath": "/icon/消息.png"
+      },
+      {
+        "pagePath": "pages/home4/home4",
+        "text": "我的",
+        "iconPath": "/icon/我的1.png",
+        "selectedIconPath": "/icon/我的.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

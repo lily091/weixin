@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container" style="{{styleStr}}">
+  <button class="st1" bindtap="enter">进入小程序...</button>
+</view>

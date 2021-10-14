@@ -1,0 +1,74 @@
+.st1{
+  padding: 30rpx 20rpx;
+}
+.st3{
+  display: flex;
+}
+.st3 .st4{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin: 0 30rpx;
+}
+.st5{
+  line-height: 100rpx;
+}
+.st6{
+  margin: 20rpx 0;
+}
+.st8{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 30rpx;
+}
+.st9{
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: space-around;
+}
+.st9 image{
+  width: 220rpx;
+  height: 164rpx;
+  border-bottom: 1rpx solid #808080;
+}
+._st5{
+  padding: 10rpx;
+}
+._st5 textarea{
+  width: 100%;
+}
+._st7{
+  height: 60rpx;
+  width: 60rpx;
+}
+._st8{
+  display: flex;
+  justify-content: space-around;
+}
+._st9{
+  display: flex;
+  justify-content: space-around;
+}
+._st10{
+  height: 100rpx;
+  width: 100rpx;
+  margin: 30rpx;
+}
+.st8_ button{
+  margin: 0;
+}
+._st51{
+  position: fixed;
+  bottom: 10rpx;
+  right: 10rpx;
+  justify-content: space-around;
+  background-color: transparent;
+  padding: 8rpx 0;
+  border: 1px solid #666;
+}
+._st6{
+  width: 88rpx;
+  height: 88rpx;
+  margin-left: 10rpx;
+}

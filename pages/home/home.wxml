@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<view class="st1" style="{{screenH}}">
+  <view class="st8">
+    <mp-searchbar search="{{search}}" value="{{inputVal}}" cancel="{{isCancel}}" bindfocus="focusfun" bindclear="clearFun" bindblur="blurFun"></mp-searchbar>
+  </view>
+  <block wx:for="{{arr}}" wx:key="id">
+    <navigator class="st2" url="/pages/showArt/showArt?id={{item.id}}"  hover-class="st3">
+      <view class="st4">
+        <text class="st5">{{item.title}}</text>
+        <view class="st6">{{item.time}}</view>
+      </view>
+      <image class="st7" src="{{item.smallSrc}}" lazy-load mode="aspectFit"></image>
+    </navigator>
+  </block>
+</view>

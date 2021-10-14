@@ -1,0 +1,28 @@
+<!--pages/showArt/showArt.wxml-->
+<view class="st1">
+  <view class="st2">{{obj.title}}</view>
+  <view class="st3">{{obj.dateTime}}</view>
+  <rich-text class="st4" nodes="{{obj.content}}" bindtap="imgTap"></rich-text>
+  <page-container show="{{isShow}}" bind:clickoverlay="closePage">
+      <form catchsubmit="formSubmit">
+        <view class="_st5">
+          <textarea name="content" placeholder="请输入评论"></textarea>
+        </view>
+        <view class="_st9">
+          <block wx:for="{{tempPhotos}}" wx:key="*this">
+            <image class="_st10" mode="widthFix" src="{{item}}" />
+          </block>
+        </view>
+        <view class="_st8">
+          <button type="primary" formType="submit" size="mini">发表评论</button>
+          <image class="_st7" mode="widthFix" bindtap="selectPhone"  src="/icon/add.png"/>
+          <button formType="reset" size="mini" type="warn" bindtap="reset">Reset</button>
+        </view>
+      </form>
+    </page-container>
+    <view class="st5" style="display:{{isShow?'none':'flex'}}">
+      <image class="st6" src="/icon/xpl.png" mode="widthFix" bindtap="showPage"/>
+      <image class="st6" src="/icon/ckpl.png" mode="widthFix" bindtap="goComment"/>
+      <text class="st7">{{comNum}}</text>
+    </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/audioPlay/audioPlay.wxml-->
+<view class="st1">
+  <view class="st2">{{obj.title}}</view>
+  <view class="st3">{{obj.dateTime}}</view>
+ <video src="{{obj.url}}" class="st4" bindplay="play" bindpause="pause" bindended="end" bindtimeupdate="timeupdate" bindwaiting="waiting" bindtimeupdate="timeupdate"  play-btn-position="center" initial-time="{{startTime}}"></video>
+ <view class="st5">
+    <image class="prev" bindtap="prev" src="/icon/prev.png" />
+    <image class="next" bindtap="next" src="/icon/next.png" />
+  </view>
+  <view class="st6">
+    <image src="{{obj.smallSrc}}" />
+  </view>
+</view>

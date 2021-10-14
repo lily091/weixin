@@ -1,0 +1,14 @@
+<view class="st1">
+  <view class="st2">
+    <block wx:for="{{navArr}}" wx:key="id">
+      <text class="st3 {{current===item.id?'on':''}}" data-id="{{item.id}}" bindtap="changeId">{{item.title}}</text>
+    </block>
+  </view>
+  <view style="{{screenH}}" class="st4">
+    <swiper class="st5" current="{{current}}" duration="1000" bindchange="swiperChange">
+      <swiper-item class="st6" wx:for="{{navArr}}" wx:key="id">
+        <MediaList dataType="{{item.dataType}}" mode="backgroundAudio" srcType="audio" wx:if="{{current===item.id}}"/>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

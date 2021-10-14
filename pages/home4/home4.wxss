@@ -1,0 +1,26 @@
+.st1{
+  background-color: #808080;
+  padding: 20rpx 10rpx 0;
+}
+.st2{
+  display: flex;
+  background-color: white;
+  margin: 20rpx;
+  padding: 20rpx 0;
+}
+.st3{
+  flex: 1;
+  border-radius: 10rpx;
+  margin: 0 20rpx;
+}
+.st4{
+  flex: 4;
+}
+.st5{
+  font-family: simsun;
+  margin-bottom: 20rpx;
+}
+.st6{
+  font-size: 12px;
+  color: #999;
+}

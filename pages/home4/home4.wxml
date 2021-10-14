@@ -1,0 +1,11 @@
+<view class="st1" style="height:{{screenH}}px">
+  <block wx:for="{{arr}}" wx:key="id">
+    <navigator class="st2" url="{{item.mediaPlay}}">
+      <image class="st3" mode="widthFix" src="{{item.smallSrc}}"></image>
+      <view class="st4">
+        <text class="st5">{{item.title}}</text>
+        <view class="st6">{{item.dataTime}}</view>
+      </view>
+    </navigator>
+  </block>
+</view>

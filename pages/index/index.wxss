@@ -1,0 +1,11 @@
+.container{
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.st1{
+  position: fixed;
+  bottom: 100rpx;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(226, 38, 5);
+  font-size: 30rpx;
+}
